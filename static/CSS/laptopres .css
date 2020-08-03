@@ -1,0 +1,50 @@
+/*Responsive For Laptops*/
+@media only screen and (max-width: 1197px) {
+	/*Home*/
+	.navbar1 input[type="Submit"]{
+		margin-left: 450px;
+	}
+	
+	
+	/*Blog Area*/
+	.a .p {
+		
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
+}
+	
+.sect h3 {
+		font-size: 25px;
+	}
+	.sect p {
+		font-size: 20px;
+	}
+	.sect input[type="button"] {
+		font-size: 20px;
+		width: 200px;
+	}
+	/*Contact Us*/
+	.control #Ar{
+background-image: url(../IMAGES/photo-1555099962-4199c345e5dd.jpg);
+		width: 100%;
+		
+		background-repeat: no-repeat;
+		
+	
+
+	}
+	#Ar .center{
+justify-content: center;
+		text-align: center;
+		margin: auto;
+	}
+	
+
+
+
+}
+
+
+
+

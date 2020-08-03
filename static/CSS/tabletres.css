@@ -1,0 +1,138 @@
+@media only screen and (max-width: 979px) {
+	/*Nav bar*/
+		.navbar{
+		display: grid;
+		justify-content: center;
+		margin: auto;
+		text-align: center;
+ 
+  
+		
+	}
+	.h-nav{
+		height:  150px;
+	}
+	.navbar {
+		display:contents;
+		padding-left: 20px;
+		padding-right: 20px;
+		background:transparent;
+	}
+	.navbar li{
+  display: inline;
+ 
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	font-size: 15px;
+	color:white ;
+	}
+	.navbar text{
+		display: grid;
+		justify-content: center;
+		text-align: center;
+		margin: auto;
+		color: white;
+	margin-left: 20px;
+	
+	} 
+	.style0{
+		font-size: 10px;
+	}
+	.how .title{
+		font-size: 30px;
+	}
+	.navbar .Img{
+		display: grid;
+justify-content: center;
+text-align: center;
+margin: auto;
+
+	}
+	
+	/*Home*/
+	 .btn #Get{
+   margin: auto 410px;
+   justify-content: center;
+		
+}
+
+
+
+
+
+
+
+	/*Home*/
+	 .btn #Get{
+   margin: auto 410px;
+   justify-content: center;
+		
+}
+
+
+
+
+
+
+
+/*Blog Area*/
+	.a .p {
+	
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
+		border-radius: 30px;
+}
+	.a .p1 {
+		
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
+		border-radius: 10px;
+}
+	.a .p2 {
+		
+    width: 300px;
+    height: 200px;
+		border-radius: 10px;
+    margin-left: 15px;
+}
+	.a #pr{
+		height: 250px;
+	}
+	
+	
+
+	
+	
+	
+	.sect .a {
+		display: grid;
+		justify-content: center;
+		text-align: center;
+		margin: auto;
+		
+	}
+	.a .p {
+margin-bottom: 20px;
+	}
+	.a .p1 {
+		margin-bottom: 20px;
+			}
+			.a .p2 {
+				margin-bottom: 20px;
+					}
+					/*About us*/
+				.aboutus .para{
+					font-size: 10px;
+				}
+				/*Contact Us*/
+				#Ar .center{
+					height: 700px;
+					width: 310px;
+
+
+				}	
+							
+}

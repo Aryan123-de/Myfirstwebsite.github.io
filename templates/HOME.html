@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--Links Starts--> 
+<link rel="stylesheet" href="{{ url_for('static', filename='/CSS/backgroundres.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='/CSS/blogres.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='/CSS/burger.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='/CSS/tabletres.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='/CSS/Home.css')}}">
+<!--Links Ends--> 
+
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Home</title>
+</head>
+
+<body>
+<!-- Nav Bar Starts -->
+	<div class="navbar1">
+	<div class="background">
+	<nav class="navbar  ">
+		<div class="burger"  > 
+			<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div></div>
+		
+		
+		
+
+		<img src="{{ url_for('static', filename='/IMAGES/Logo.png') }}" alt="" class="Img">
+			<h1 class="title">
+				CodeMasters</h1> 
+		
+		
+		
+		
+		
+			
+			<ul  class="HI v-res" >
+					<a href="#Home"><li class="style0 ">Home
+				</li></a>
+				<a href="#Blog">
+					<li class="style0">Blogs</li>
+				</a>
+		<a href="/HOME">
+				<li class="style0">Light Mode</li>
+					</a>
+				<a href="#About">
+					<li class="style0">About us</li>
+				</a>
+				<a href="#center">
+					<li class="style0">Contact us
+
+					</li>
+				</a>
+      
+
+			</ul>
+		
+		</nav>
+		
+		<!--Nav Bar Ends -->
+
+		<!-- Home Starts-->
+		<section id="Home">
+		<div class="btn">
+		<hr>
+			<h1 id="Head">Welcome To CodeMasters</h1>
+			<p>
+				We teach you programing and we will try to make you perfect.We hope that you will become a great job in
+				the comming future
+<a href="#"><input type="button"  value="Get Started" id="Btn" required="true"></a>
+			</p>
+			
+			</div>
+		</section>
+					</div></div>
+
+		<!-- Home Ends -->
+
+		<!-- Blog Starts -->
+<hr>
+<h5 class="blog " id="Blog" >Front End Web Development Blogs</h5>
+<hr>
+		<section class="sect"  >
+			<div class="a">
+			<hr>
+			
+			
+			
+			<!--First Post-->
+				<div class="p">
+					<h3>HTML Coding</h3>
+					<p>Learn HTML Coding very faster. Just Click On 'Start'. </p>
+				<a href="#">	<input type="button" value="Start"></a>
+				</div>
+<!--Second Post-->
+
+				<div class="p" >
+					<h3>CSS Coding</h3>
+					<p>Learn CSS Coding very faster. Just Click On 'Start'.</p>
+					<a href="#"><input type="button" value="Start"></a> 
+				</div>
+
+				<!--Third Post-->
+
+             <div class="p" id="pr">
+	             <h3>Javascript Programing</h3>
+      <p>Learn Javascript programmig very faster. Just Click On 'Start'. </p>
+			
+       <a href="#"><input type="button" value="Start"></a>
+	</div>
+			</div>
+			
+		</section>
+		<!-- Blog Ends -->
+		<!-- About Us Starts -->
+		<hr>
+		<h5 class="Aryan"  id="About" >About us</h5>
+		<hr>
+		<section class="aboutus" >
+			<h2>
+				About Us</h2>
+			<p class="para"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat at libero obcaecati
+					placeat sed fugit, porro atque ea, totam mollitia beatae ex magni cupiditate odio voluptatum
+					architecto quam minus quos!</span>
+				<span>Deserunt, porro, omnis. Aperiam quas qui beatae exercitationem, dolor dolores molestias, illum
+					omnis quidem ratione aspernatur, eaque iusto. Voluptatem aspernatur, ratione non perferendis
+					dignissimos laboriosam eaque labore consectetur quae voluptatibus.</span>
+				<span>Voluptas amet debitis aut veniam soluta minima ducimus sed fugit sunt deleniti assumenda autem
+					numquam earum officia facere totam deserunt necessitatibus, ratione vitae placeat. Inventore hic
+					eaque dolorem molestias reiciendis.</span>
+			</p>
+			
+		</section >
+		<!-- About us Ends -->
+	<!-- Contact Us Start-->
+		<hr>
+     <h3 id="Contact">Contact Us</h3>
+        <hr>
+<div class="control" id="hello" >
+	<section id="Ar" >
+	 
+		<div class="center" id="center" >
+		<form action="/contact" method="contact">
+		<img src="{{ url_for('static', filename='/IMAGES/e7a5cf5c9e.png') }}" alt="" id="Imge1" >
+		<h2>Contact us</h2>
+		
+		<p>Name</p>
+		<input type="text" Placeholder="Enter Your Name" name="Name"required>
+        <p>Email</p>
+    <input type="email" Placeholder="Enter Your E-mail address"name="email" required>
+       
+        <p>Phone Number</p>
+    <input type="number" Placeholder="Enter Number"name="phone" required>
+    <p>Message</p>
+    <textarea  cols="30" rows="10" placeholder="Enter Your Message"name="message" required></textarea>
+   <a href="/THANK/"> <input type="button" value="Send" ></a>
+		</form>
+		</div></section></div>
+		<!-- Contact Us Ends -->
+		
+			<!-- Footer Start -->
+			
+					<footer>
+						<h6><bold>CODEMASTER</bold></h6>
+						<p>All  &copy Copyright Reserved 2020</p>
+					</footer>
+					<!-- Footer Ends-->
+
+
+					<!-- Javascript Start -->
+			<script src="{{ url_for('static', filename ='/JavaScript/Home.js') }}"></script>
+			<!-- Javascript Ends -->
+</body>
+
+</html>

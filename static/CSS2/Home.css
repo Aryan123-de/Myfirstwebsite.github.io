@@ -1,0 +1,484 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+	background-color:#292321;
+}
+/*Hamburger Menu */
+.navbar1 .title #Img  li{
+display: contents;
+}
+.burger{
+	display: none;
+	margin-top: 10px;
+	margin-left: 10px;
+
+
+
+
+right: 5%;
+top: 15px;
+position: sticky;
+	cursor: pointer;
+	
+	
+	
+	 
+}
+.line{
+	background-color: white;
+	width: 33px;
+	height: 4px;
+	margin: 3px 3px;
+}
+
+
+/*Responsive*/
+html,body{
+width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+	
+	}
+
+/*list items*/
+
+.how .title{
+	font-size: 35px;
+}
+ul{
+
+list-style-type: none;
+
+}
+
+.style0 {
+	list-style-type: square r; 
+  color:white;
+	  list-style: none;
+	  font-size: 18px;
+	  font-family: fantasy;
+	 cursor: pointer;
+border-radius: 40px;
+	
+	
+	
+	
+	 
+	
+}
+
+.style1{
+color: white;
+	  list-style:   none;
+	  font-size: 20px;
+	  font-family: fantasy;
+	 cursor: pointer;
+	list-style: none;
+}
+.style2{
+color: white;
+	  list-style:   none;
+	
+	  font-size: 20px;
+	  font-family: fantasy;
+	 cursor: pointer;
+	list-style: none;
+	
+}
+.style3{
+color: white;
+	  list-style-type: square r; 
+	
+	  font-size: 20px;
+	  font-family: fantasy;
+	 cursor: pointer;
+	list-style: none;
+	text-decoration: none;
+}
+li:hover{
+
+	color: white;
+	background-color: black;
+
+	border: 5px;
+	border-color: white;
+	border-radius:10px;
+	list-style: none;
+}
+li:active{
+	background-color:red;
+	color: white;
+	padding-left: 30px;
+	border: 5px;
+
+	border-radius:10px;
+	list-style: none;
+}
+
+li{
+	display: inline-flex;
+	padding-left:    10px;
+	list-style: none;
+}
+li a{
+	list-style-type: none;
+
+}
+/*Navigation Bar*/
+
+nav{
+	display: flex;
+
+	background-color: transparent;
+	
+	
+	
+	height: 70px;
+	list-style: none;
+}
+.title{
+	color:white;
+	margin-right: 2px;
+	font-family: fantasy;
+	font-size: 35px;
+	margin-top: 10px;
+	
+}
+
+.navbar{
+		display: grid;
+		justify-content: center;
+		margin: auto;
+		text-align: center;
+ 
+  
+		
+	}
+	.h-nav{
+		height:  150px;
+	}
+	.navbar {
+		display:contents;
+		padding-left: 20px;
+		padding-right: 20px;
+		background:transparent;
+	}
+	.navbar li{
+  display: inline;
+ 
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	
+	color:white ;
+	}
+	.navbar text{
+		display: grid;
+		justify-content: center;
+		text-align: center;
+		margin: auto;
+		color: white;
+	margin-left: 20px;
+	
+	} 
+	.how .title{
+		font-size: 30px;
+	}
+	.navbar .Img{
+		display: grid;
+justify-content: center;
+text-align: center;
+margin: auto;
+
+	}
+	
+/*background*/
+
+.background{
+	background-image: url(../IMAGES2/front.jpg);
+}
+.background 
+{
+	content: "";
+	height: 1000px;	
+	
+	background-repeat: no-repeat;
+	background: darken;
+	opacity: 95%;
+}	
+
+ #Ar{
+	 background-image: url(../IMAGES2/contactbg.jpg);
+	
+	
+}
+
+	
+
+/*Home*/
+#hr{
+	display: block;
+}
+#Head{
+	
+	color: white;
+	text-align: center;
+	margin: auto;
+	
+}
+section h1{
+	color:white;
+	text-align: center;
+	padding-top: 100px;
+	
+	padding-top: 100px;
+	font-size: 50px;
+	
+}
+
+section p{
+	color:white;
+	
+	text-align: center;
+	font-size: 20px;
+	
+	
+}
+	
+
+
+
+ #Btn{
+	justify-content: center;
+    margin: auto ;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+	color: white;
+	 display: grid;
+	 
+
+	 margin-top: 40px;
+}
+
+
+#Btn:hover{
+	background-color: black;
+	color: white;
+}
+
+	
+ /* Blogs Area */
+ 
+.blog{
+font-size: 45px;
+justify-content: center;
+text-align: center;
+margin: auto;
+color: white;
+}
+
+.a{
+
+	display: inline-flex;
+	margin-right:  10px;
+	position:static;
+}
+.p{
+
+	background-color: black; 
+    height: 246px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    width: 415;
+    border-radius: 20px;
+	margin-left:  20px;
+}
+.h3{
+	color: white;
+}
+.Aryan{
+	font-size: 45px;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+color: white;
+}
+
+.sect input[type="button"]{
+cursor: pointer;
+	color: white;
+	background-color: red;
+	width: 200px;
+	height: 30px;
+	border-radius: 20px;
+	border-color: black;
+	cursor: pointer;
+	
+
+}
+.sect input[type="button"]:hover{
+	background-color: black;
+	color:white;
+	cursor: pointer;
+}
+.a h3{
+color: white;
+}
+
+
+
+/*About us*/
+.aboutus{
+background-color: brown;
+	height: 300px;
+	width: 90%;
+	justify-content: center;
+	margin: auto;
+	border-radius: 30px;
+	
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: serif;
+	
+}
+.para{
+	text-align: center;
+	color:white;
+}
+/*Contact Area*/
+
+.center  input[type="text"],input[type="number"],input[type="email"]{
+	background-color: white;
+	border-radius: 10px;
+	justify-content: center;
+	margin: auto;
+	
+	
+	
+	
+}
+.center{
+background-color: black;
+	height: 800px;
+	width: 400px;
+	border-radius: 30px;
+	margin-left: 500px;
+	color: white;
+	text-align: center;
+	margin: auto;
+    margin-left: 950px;
+	
+	
+}
+.center p{
+color: wheat;
+}
+.center input[type="button"]{
+	color: white;
+	background-color: red;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	border-color: black;
+	cursor: pointer;
+	 
+	margin: auto;
+	text-align: center;
+	
+	
+	
+}
+ h3{
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+.center input[type="button"]:hover{
+	background-color: black;
+	color:white;
+	cursor: pointer;
+	
+}
+.center textarea{
+	background-color: white;
+	border-radius: 15px;
+	justify-content: center;
+	margin: auto;
+	
+
+}
+/*Images*/
+#Ar{
+	
+	
+	width:800px;
+	background-image: url(../IMAGES2/contactbg.jpg);
+	margin-bottom: 50px;
+	background-repeat: no-repeat;
+	
+}
+#Images{
+width: 60%;
+
+	
+}
+
+	
+
+.Img{
+	max-height: 60px;
+	max-width:   65px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 5px;
+	
+	border-radius: 50px;	
+}
+#Imge1{
+	max-height: 70px;
+	width: 70px;
+	justify-content: center;
+	margin: auto
+}
+/*Footer*/
+footer{
+padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+    width: 100%;
+	
+}
+footer p,h6{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	
+	
+	
+}
+footer p{
+	
+	text-align: center;
+	margin: auto;
+	
+}
+footer h6{
+	color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+	margin-right: 0%;
+	
+}
+
+

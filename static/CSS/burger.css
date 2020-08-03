@@ -1,0 +1,46 @@
+@media only screen and (max-width: 440px){
+    .navbar1 .background{
+        background-image: url(../IMAGES/440px.jpg);
+    }
+     #hello  #Ar{
+         background-image: url(../IMAGES/7.jpg);
+	
+     }
+    .navbar{
+display: grid;
+
+    }
+    .navbar1 .navbar li{
+        display: grid;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        margin-right: 30px;  
+    }
+    .navbar1 .navbar text{
+        display: grid; 
+    }
+    .navbar1  .Img{
+        display: grid; 
+        justify-content: center;
+        margin: auto;
+    }
+	 .title{
+		font-size: 20px;
+
+    }
+      
+    /*Hamburger Menu*/
+.navbar .burger{
+	display: block;
+	position: relative;
+	
+}
+.navbar .it{
+   display:block; 
+}
+.v-res{
+   
+   opacity: 0;
+}
+}

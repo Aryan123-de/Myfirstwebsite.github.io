@@ -1,0 +1,17 @@
+@media only screen and (max-width:1340px){
+    /* Contact us  */
+    .control #Ar{
+        background-image: url(../IMAGES/photo-1555099962-4199c345e5dd.jpg);
+            width: 100%;
+            
+            background-repeat: no-repeat;
+            
+            
+        }
+        #Ar .center{
+        justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+            
+}
